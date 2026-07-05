@@ -1,4 +1,3 @@
-SMEV API Mock
 Mock-сервис на Spring Boot для проверки паспорта по REST API.
 
 Сервис принимает POST запрос на endpoint /api/check/v1/CheckPassport и возвращает тестовый ответ с полями:
