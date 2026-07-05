@@ -1,0 +1,11 @@
+services:
+  smev-mock:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smev-api-mock
+    ports:
+      - "8081:8081"
+    environment:
+      JAVA_OPTS: "-Xms256m -Xmx256m"
+    restart: unless-stopped
